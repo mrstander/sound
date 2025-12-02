@@ -24,11 +24,7 @@ export default function LightingPage() {
       alt: "Corporate event lighting with professional spotlights",
       title: "Corporate Event Lighting",
     },
-    {
-      src: "/images/lighting/light4.jpg",
-      alt: "Dramatic theatrical lighting with moving fixtures",
-      title: "Theatrical Production Lighting",
-    },
+    
     {
       src: "/images/lighting/light5.jpg",
       alt: "Outdoor festival lighting with LED panels",
@@ -50,7 +46,7 @@ export default function LightingPage() {
               fill
               className="object-cover filter grayscale opacity-80"
             />
-            <div className="absolute inset-0 bg-black/70" />
+            <div className="absolute inset-0 bg-black/50" />
           </div>
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-4xl mx-auto text-center">
@@ -73,7 +69,7 @@ export default function LightingPage() {
               <div className="grid lg:grid-cols-2 gap-16 items-center">
                 <div>
                   <div className="bg-sound360 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
-                    <Lightbulb className="w-8 h-8 text-white" />
+                  
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">Stage Lighting</h2>
                   <p className="text-gray-700 mb-6 leading-relaxed">
@@ -102,11 +98,11 @@ export default function LightingPage() {
 
                 <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/stage-lighting.png"
+                    src="/images/lighting/light4.jpg"
                     alt="Professional Lighting Setup"
                     width={600}
                     height={450}
-                    className="w-full h-full object-cover filter grayscale"
+                    className="w-full h-full object-cover"
                   />
                 </div>
               </div>
@@ -139,10 +135,9 @@ export default function LightingPage() {
                         fill
                         className="object-cover group-hover:scale-110 transition-transform duration-500"
                       />
-                      <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                       <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <h3 className="text-lg font-bold mb-1">{image.title}</h3>
-                        <p className="text-sm text-white/90">{image.alt}</p>
+                        
                       </div>
                     </div>
                   </div>

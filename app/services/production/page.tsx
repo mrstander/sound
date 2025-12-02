@@ -50,7 +50,7 @@ export default function ProductionPage() {
               fill
               className="object-cover filter grayscale opacity-80"
             />
-            <div className="absolute inset-0 bg-black/70" />
+            <div className="absolute inset-0 bg-black/50" />
           </div>
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-4xl mx-auto text-center">
@@ -102,11 +102,11 @@ export default function ProductionPage() {
 
                 <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/rigging-setup.png"
+                    src="/images/events/event3.jpg"
                     alt="Professional Event Production Setup"
                     width={600}
                     height={450}
-                    className="w-full h-full object-cover filter grayscale"
+                    className="w-full h-full object-cover "
                   />
                 </div>
               </div>
@@ -138,10 +138,9 @@ export default function ProductionPage() {
                         fill
                         className="object-cover group-hover:scale-110 transition-transform duration-500"
                       />
-                      <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                       <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <h3 className="text-lg font-bold mb-1">{image.title}</h3>
-                        <p className="text-sm text-white/90">{image.alt}</p>
+                        
                       </div>
                     </div>
                   </div>

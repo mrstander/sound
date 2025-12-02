@@ -59,7 +59,7 @@ export default function ServicesPage() {
       icon: Volume2,
       description: "Crystal-clear sound systems, mixing consoles, and acoustic solutions for any venue size.",
       features: ["Digital Consol Mixing", "High quality Audio", "Wireless Microphones", "Recording & Playback"],
-      image: "/images/hero1.webp",
+      image: "/images/audio2.jpg",
       href: "/services/audio",
       details:
         "From intimate presentations to large-scale concerts, our professional audio solutions ensure every word and note is heard with perfect clarity.",
@@ -69,7 +69,7 @@ export default function ServicesPage() {
       icon: Lightbulb,
       description: "Dynamic lighting design that transforms your event with spectacular visual effects.",
       features: ["LED Moving Lights", "Intelligent Fixtures", "Haze & Fog Effects", "DMX Control Systems"],
-      image: "/images/hero2.webp",
+      image: "/images/lighting/light1.jpg",
       href: "/services/lighting",
       details:
         "Create the perfect atmosphere with our cutting-edge lighting solutions, from subtle ambiance to dramatic stage productions.",
@@ -79,7 +79,7 @@ export default function ServicesPage() {
       icon: Monitor,
       description: "High-resolution LED displays and projection systems for impactful visual presentations.",
       features: ["LED Video Walls", "Projection Mapping", "Live Camera Systems", "Content Management"],
-      image: "/images/hero2.webp",
+      image: "/images/visual/visual2.jpg",
       href: "/services/visual",
       details:
         "Engage your audience with stunning visual displays, from corporate presentations to immersive brand experiences.",
@@ -89,7 +89,7 @@ export default function ServicesPage() {
       icon: Settings,
       description: "Complete event production including rigging, trussing, livestreaming, and power solutions.",
       features: ["Rigging & Trussing", "Livestreaming", "Power Distribution", "Project Management"],
-      image: "/images/event-production-camera.png",
+      image: "/images/events/event1.jpg",
       href: "/services/production",
       details:
         "Full-service event production that handles every technical aspect, allowing you to focus on your event's success.",
@@ -100,7 +100,7 @@ export default function ServicesPage() {
       description:
         "Create the perfect space with flooring to elevate your exhibition or dance the night away, often enhanced by lighting and effects to create the desired atmosphere.",
       features: ["LED Dance Floors", "Black and White", "Glossy Dance Floors", "Portable Dance Floors", "Underflooring"],
-      image: "/images/visual-solutions.png",
+      image: "/images/dancefloor/dance1.jpg",
       href: "/services/dancefloor",
       details: "",
     },
