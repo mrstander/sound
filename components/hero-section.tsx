@@ -25,13 +25,7 @@ export function HeroSection() {
       subtitle: "",
       description: "",
     },
-    {
-      id: 3,
-      image: "/images/audio3.jpg",
-      title: "SOUND360", // Primary text - always shown
-      subtitle: "",
-      description: "",
-    },
+  
   ]
 
   // Primary/default content
